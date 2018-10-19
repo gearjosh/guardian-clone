@@ -2,7 +2,6 @@
 
 .headline-grid-container {
   display: grid;
-  padding: 1.25rem;
   height: auto;
   grid-template-rows: minmax(3rem, 1fr) minmax(15rem, 5fr) minmax(21rem, 7fr);
   // grid-template-rows: 1fr 5fr 7fr;
