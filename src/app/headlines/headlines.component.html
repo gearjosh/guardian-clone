@@ -4,9 +4,12 @@
   </div>
   <div class="top-story-area">
     <div class="big-story">
-      <div *ngFor="let story of prioritySorter(stories)">
 
-      </div>
+        <h2>{{findTopStory(stories).headline}}</h2>
+        <h4>{{topStory.lead}}</h4>
+        <p><em>{{topStory.byline}}</em></p>
+        <p>{{topStory.body}}</p>
+
     </div>
     <div class="related-story">
 
