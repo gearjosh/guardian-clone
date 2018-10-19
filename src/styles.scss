@@ -1,7 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import './app/scss/variables.scss';
 
-body {
-  background-color: $blue;
-  color: $green;
+html {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1100px;
 }
