@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Story } from '../models/story.model';
 import { STORIES } from '../mocks/stories';
 
@@ -8,9 +8,9 @@ import { STORIES } from '../mocks/stories';
   styleUrls: ['./headlines.component.scss']
 })
 export class HeadlinesComponent implements OnInit {
-  // topStory: Story = this.findTopStory(STORIES);
 
-  @Input() stories: Story[] = STORIES;
+  @Input() topStory: Story;
+  // topStory: Story = this.findTopStory(STORIES);
 
   constructor() {
 

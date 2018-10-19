@@ -9,6 +9,7 @@ import { STORIES } from './mocks/stories';
 })
 export class AppComponent {
   title = 'guardian-clone';
+  storiesArray = STORIES;
 
   prioritySorter(stories) {
     let p1Array: Story[];
