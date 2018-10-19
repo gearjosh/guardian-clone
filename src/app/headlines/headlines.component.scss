@@ -2,10 +2,11 @@
 
 .headline-grid-container {
   display: grid;
-  width: 100%;
+  width: 1100px;
   height: auto;
-  grid-template-rows: 1fr 5fr 7fr;
-  grid-template-columns: repeat(4, minmax(20rem, 1fr));
+  grid-template-rows: 5rem 25rem 35rem;
+  // grid-template-rows: 1fr 5fr 7fr;
+  grid-template-columns: repeat(4, minmax(15rem, 1fr));
   grid-template-areas: "header header header header"
                        "topstory topstory topstory rightcolumn"
                        "secondstory secondstory middlecolumn rightcolumn";
@@ -14,24 +15,34 @@
 .header-area {
   background-color: $blue;
   grid-area: header;
+  width: 100%;
+  height: 100%;
 }
 
 .top-story-area {
   background-color: $green;
   grid-area: topstory;
+  width: 100%;
+  height: 100%;
 }
 
 .second-story-area {
   background-color: $dark;
   grid-area: secondstory;
+  width: 100%;
+  height: 100%;
 }
 
 .middle-column-area {
   background-color: $yellow;
   grid-area: middlecolumn;
+  width: 100%;
+  height: 100%;
 }
 
 .right-column-area {
   background-color: $orange;
   grid-area: rightcolumn;
+  width: 100%;
+  height: 100%;
 }
