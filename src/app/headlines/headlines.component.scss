@@ -2,11 +2,11 @@
 
 .headline-grid-container {
   display: grid;
-  width: 1100px;
+  padding: 1.25rem;
   height: auto;
-  grid-template-rows: 5rem 25rem 35rem;
+  grid-template-rows: minmax(3rem, 1fr) minmax(15rem, 5fr) minmax(21rem, 7fr);
   // grid-template-rows: 1fr 5fr 7fr;
-  grid-template-columns: repeat(4, minmax(15rem, 1fr));
+  grid-template-columns: repeat(4, minmax(12rem, 1fr));
   grid-template-areas: "header header header header"
                        "topstory topstory topstory rightcolumn"
                        "secondstory secondstory middlecolumn rightcolumn";
