@@ -23,8 +23,21 @@ export default class Story {
     });
   };
 
-  topicSorter(story, stories) {
-    
+  findRelated(inputStory: Story, stories: Story[]) {
+    const topicsToMatch: string[] = inputStory.topics;
+    let outputArray: Story[];
+    topicsToMatch.forEach((topic) => {
+      stories.forEach((currentStory) => {
+        if (outputArray.includes(currentStory)) {
+          return;
+        } else if (currentStory.topics.includes(topic)) {
+          outputArray.push(currentStory);
+        } else {
+          return;
+        }
+      });
+    });
+    return outputArray;
   };
 
 }
