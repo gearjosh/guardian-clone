@@ -3,9 +3,9 @@
 
   </div>
   <div class="top-story-area">
-    <div class="big-story">
+    <div (ngOnInit)="findTopStory(stories)" class="big-story">
 
-        <h2>{{findTopStory(stories).headline}}</h2>
+        <h2>{{topStory.headline}}</h2>
         <h4>{{topStory.lead}}</h4>
         <p><em>{{topStory.byline}}</em></p>
         <p>{{topStory.body}}</p>
@@ -29,7 +29,7 @@
     </div>
   </div>
   <div class="right-column-area">
-    <div class="story">
+    <div *ngFor="" class="story">
 
     </div>
   </div>
