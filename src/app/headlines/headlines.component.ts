@@ -12,7 +12,6 @@ import { StoryService } from '../story.service';
 export class HeadlinesComponent implements OnInit {
   stories;
   // stories: FirebaseListObservable<any[]>;
-  // prioritizedStories;
   topStory;
   interestingStory;
   p1Stories = [];
@@ -21,7 +20,7 @@ export class HeadlinesComponent implements OnInit {
 
   constructor(private storyService: StoryService) {}
 
-  
+
 
   ngOnInit() {
 
