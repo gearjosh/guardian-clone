@@ -41,12 +41,12 @@ export class HeadlinesComponent implements OnInit {
       this.topStory = this.p1Stories[0];
       this.interestingStory = this.p2Stories[0];
 
-      console.log(`all stories: ${this.stories}`);
-      console.log(`p1 stories: ${this.p1Stories}`);
-      console.log(`p2 stories: ${this.p2Stories}`);
-      console.log(`p3 stories: ${this.p3Stories}`);
-      console.log(this.topStory);
-      console.log(this.interestingStory);
+      // console.log(`all stories: ${this.stories}`);
+      // console.log(`p1 stories: ${this.p1Stories}`);
+      // console.log(`p2 stories: ${this.p2Stories}`);
+      // console.log(`p3 stories: ${this.p3Stories}`);
+      // console.log(this.topStory);
+      // console.log(this.interestingStory);
     })
 
 
