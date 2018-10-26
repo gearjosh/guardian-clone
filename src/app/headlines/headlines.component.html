@@ -1,9 +1,22 @@
-<div class="headline-grid-container">
+<div class="big-box">
+  <div *ngFor="let story of stories | async" class="box">
+    <h3>{{story.headline}}</h3>
+    <div>
+      <h4>{{story.lead}}</h4>
+      <p>{{story.byline}}</p>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- <div class="headline-grid-container">
   <div class="header-area">
-    <!-- <h1>{{this.topStory.headline | async}}</h1> -->
   </div>
   <div class="top-story-area">
     <div  class="big-story">
+      <h1>{{topStory.headline | async}}</h1>
+      <h1>{{stories[0].headline | async}}</h1>
 
     </div>
     <div class="related-story">
@@ -28,4 +41,4 @@
 
     </div>
   </div>
-</div>
+</div> -->

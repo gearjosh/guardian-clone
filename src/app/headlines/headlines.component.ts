@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 // import { Story } from '../models/story.model';
 import { StoryService } from '../story.service';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-headlines',
@@ -9,10 +10,10 @@ import { StoryService } from '../story.service';
   providers: [StoryService]
 })
 export class HeadlinesComponent implements OnInit {
-  stories;
-  prioritizedStories;
-  topStory;
-  p1Stories;
+  stories: FirebaseListObservable<any[]>;
+  // prioritizedStories;
+  // topStory;
+  // p1Stories;
   // p2Stories;
   // p3Stories;
 
@@ -25,6 +26,7 @@ export class HeadlinesComponent implements OnInit {
     // this.prioritizedStories = this.prioritySorter(this.stories);
     // this.p1Stories = this.prioritizedStories[0];
     // this.topStory = this.p1Stories[0];
+
   }
 
   prioritySorter(arrayOfStories) {
