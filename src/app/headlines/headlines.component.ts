@@ -1,37 +1,39 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Story } from '../models/story.model';
+import { StoryService } from '../story.service';
 
 @Component({
   selector: 'app-headlines',
   templateUrl: './headlines.component.html',
-  styleUrls: ['./headlines.component.scss']
+  styleUrls: ['./headlines.component.scss'],
+  providers: [StoryService]
 })
 export class HeadlinesComponent implements OnInit {
+  stories;
 
-
-  constructor() {
+  constructor(private storyService: StoryService) {
 
   }
 
   prioritySorter(arrayOfStories) {
-    let p1Array: any[];
-    let p2Array: any[];
-    let p3Array: any[];
+    let p1Array;
+    let p2Array;
+    let p3Array;
+    let outputArray = [p1Array, p2Array, p3Array];
     arrayOfStories.forEach((story) => {
-      let outputArray = [p1Array, p2Array, p3Array];
       if (story.priority === 1) {
-        p1Array.push(story);
+        p1Array.unshift(story);
       } else if (story.priority === 2) {
-        p2Array.push(story);
+        p2Array.unshift(story);
       } else {
-        p3Array.push(story);
+        p3Array.unshift(story);
       }
-      return outputArray;
     });
+    return outputArray;
   };
 
   ngOnInit() {
-
+    this.stories = this.storyService.getStories();
   }
 
 }
