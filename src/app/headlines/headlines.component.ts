@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Story } from '../models/story.model';
+// import { Story } from '../models/story.model';
 import { StoryService } from '../story.service';
 
 @Component({
@@ -15,6 +15,10 @@ export class HeadlinesComponent implements OnInit {
 
   }
 
+  ngOnInit() {
+    this.stories = this.storyService.getStories();
+  }
+  
   prioritySorter(arrayOfStories) {
     let p1Array;
     let p2Array;
@@ -31,9 +35,5 @@ export class HeadlinesComponent implements OnInit {
     });
     return outputArray;
   };
-
-  ngOnInit() {
-    this.stories = this.storyService.getStories();
-  }
 
 }
