@@ -3,7 +3,7 @@
     "byline": "elspeth janine montroose",
     "headline": "man eats lots of food",
     "lead": "local man eats a lot",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "man",
       "eating",
@@ -14,7 +14,7 @@
     "byline": "roger cudgelberry",
     "headline": "man makes lots of bacon",
     "lead": "local man makes a lot of bacon",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "man",
       "food",
@@ -25,7 +25,7 @@
     "byline": "fizzy muckleton",
     "headline": "woman walks dog",
     "lead": "local woman walks a very good dog",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "woman",
       "walking",
@@ -36,7 +36,7 @@
     "byline": "frances calicat-jones",
     "headline": "woman eats record amount of bacon",
     "lead": "local woman eats record amount of bacon in local contest",
-    "priority": 2,
+    "priority":"2",
     "topics": [
       "woman",
       "eating",
@@ -48,7 +48,7 @@
     "byline": "elspeth janine montroose",
     "headline": "robber eats lots of dog treats",
     "lead": "local burgular eats a bunch of dog treats while robbing house",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "robber",
       "eating",
@@ -60,7 +60,7 @@
     "byline": "taddy knightsbough",
     "headline": "robber walks dog",
     "lead": "local robber walks dog during burglary",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "robber",
       "walking",
@@ -71,7 +71,7 @@
     "byline": "stephanie nguyen",
     "headline": "xmas robber eats brunch for 12",
     "lead": "local robber eats family of 12's christmas brunch while they sleep",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "robber",
       "eating",
@@ -83,7 +83,7 @@
     "byline": "clive vandervelde",
     "headline": "bacon to be most popular xmas gift",
     "lead": "experts predict: 2018's top xmas gift to be bacon",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "christmas",
       "bacon",
@@ -95,7 +95,7 @@
     "byline": "clive vandervelde",
     "headline": "dogs love christmas, scientists show",
     "lead": "local scientists' study reveals dogs love christmas more than their masters",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "christmas",
       "dogs",
@@ -107,7 +107,7 @@
     "byline": "beatriz olivera",
     "headline": "hanukkah better than xmas, scientists show",
     "lead": ,
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "christmas",
       "hanukkah",
@@ -118,7 +118,7 @@
     "byline": "chelsea quatrosse",
     "headline": "ten good dogs born on hanukkah",
     "lead": "you won't believe number six!",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "dogs",
       "hanukkah",
@@ -129,7 +129,7 @@
     "byline": "landon albatross-reese",
     "headline": "twelve unbelievable bacon hacks you can do at home",
     "lead": "take your bacon from floppy & dormant to ultra-performant!",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "bacon",
       "hack",
@@ -140,7 +140,7 @@
     "byline": "stephanie nguyen",
     "headline": "hacking dogs: building the super-spaniel",
     "lead": "how redog took the the dog-hacking world by storm",
-    "priority": 2,
+    "priority":"2",
     "topics": [
       "dogs",
       "hack",
@@ -151,7 +151,7 @@
     "byline": "cory eldorado",
     "headline": "new startup branded \"pinterest for dogs\"",
     "lead": "silicon valley to capture dog craft inspiration market",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "dogs",
       "crafts",
@@ -162,7 +162,7 @@
     "byline": "eleanor worcestershire-montoya",
     "headline": "dog makes papier mache bust of master",
     "lead": "sammy, local laborador, blows judges away at local craft fair",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "dogs",
       "crafts",
@@ -173,7 +173,7 @@
     "byline": "argyle jamieson singleterry",
     "headline": "ten bacon-inspired crafts for dogs",
     "lead": "edible ideas to occupy your pooch while you're away at work",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "dogs",
       "crafts",
@@ -185,7 +185,7 @@
     "byline": "stephanie nguyen",
     "headline": "scientist clones self-replicating bacon",
     "lead": "tammy hogarth, nano-biologist and bacon afficionado, solves world hunger",
-    "priority": 1,
+    "priority":"1",
     "topics": [
       "scientists",
       "tech",
@@ -197,7 +197,7 @@
     "byline": "tammy hogarth",
     "headline": "how i saved humanity",
     "lead": "tammy hogarth on bacon, cloning, & saving the world",
-    "priority": 2,
+    "priority":"2",
     "topics": [
       "scientists",
       "tech",
@@ -211,7 +211,7 @@
     "byline": "jimmy hogarth",
     "headline": "tammy hogarth: mean mom",
     "lead": "six-year-old son of scientist writes famous mom won't let him watch pg-13 movies",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "scientists",
       "gossip",
@@ -224,7 +224,7 @@
     "byline": "ricky elizabeth-gilbert",
     "headline": "woman says neighbor annoying about parking",
     "lead": "johnny mangosteen, local arborist, accused of \"parking rudely\" by graduate student next door",
-    "priority": 2,
+    "priority":"2",
     "topics": [
       "parking",
       "gossip",
@@ -236,7 +236,7 @@
     "byline": "ricky elizabeth-gilbert",
     "headline": "man accused of not being accuser's dad",
     "lead": "charles richardson, 19, tells stepdad not to talk to him like that",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "dads",
       "gossip",
@@ -247,7 +247,7 @@
     "byline": "courtney rieff",
     "headline": "scientists reveal stepdads a mixed bag",
     "lead": "much like dads, local scienctists show that stepdads can be both nice & mean",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "dads",
       "scientists",
@@ -258,7 +258,7 @@
     "byline": "doris allasaurus",
     "headline": "stepdad actually two dogs in trenchcoat",
     "lead": "shocking canine deception revealed!",
-    "priority": 3,
+    "priority":"3",
     "topics": [
       "stepdads",
       "gossip",
@@ -270,7 +270,7 @@
     "byline": "doris allasaurus",
     "headline": "two dogs in trenchcoat new urban problem",
     "lead": "startling amount of supposed humans actually cloaked dog pairs",
-    "priority": 2,
+    "priority":"2",
     "topics": [
       "human interest",
       "dogs",
@@ -281,12 +281,7 @@
     "byline": "mikey octolith-smith",
     "headline": "dogs able to gossip",
     "lead": "local scientist proves dogs can gossip",
-    "priority": 3,
-    "topics": [
-      "human interest",
-      "dogs",
-      "scientists",
-      "gossip"
-    ]
+    "priority":"3",
+    "topics": ["human interest", "dogs", "scientists", "gossip"]
   }]
 }
