@@ -1,9 +1,11 @@
 <div class="big-box">
   <div *ngFor="let story of stories | async" class="box">
-    <h3>{{story.headline}}</h3>
+    <h2>{{story.headline.toUpperCase()}}</h2>
     <div>
-      <h4>{{story.lead}}</h4>
-      <p>{{story.byline}}</p>
+      <h3>{{story.lead}}</h3>
+      <h5>by {{story.byline}}</h5>
+      <p>{{story.body}}</p>
+      <h5>topics: {{story.topics[0]}}, {{story.topics[1]}}, {{story.topics[2]}}</h5>
     </div>
   </div>
 
