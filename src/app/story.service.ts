@@ -15,10 +15,4 @@ export class StoryService {
   getStories() {
     return this.stories;
   }
-
-  getTopStory() {
-    this.stories.forEach((story) => {
-
-    })
-  }
 }
