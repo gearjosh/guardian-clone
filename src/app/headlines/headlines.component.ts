@@ -9,8 +9,6 @@ import { STORIES } from '../mocks/stories';
 })
 export class HeadlinesComponent implements OnInit {
 
-  // @Input() topStory: Story;
-  // topStory: Story = this.findTopStory(STORIES);
 
   constructor() {
 
