@@ -29,7 +29,7 @@
     "topics": [
       "woman",
       "walking",
-      "dog"
+      "dogs"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -45,255 +45,248 @@
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "elspeth janine montroose",
+    "headline": "robber eats lots of dog treats",
+    "lead": "local burgular eats a bunch of dog treats while robbing house",
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "robber",
+      "eating",
+      "food",
+      "dogs"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "taddy knightsbough",
+    "headline": "robber walks dog",
+    "lead": "local robber walks dog during burglary",
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "robber",
+      "walking",
+      "dogs"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "stephanie nguyen",
+    "headline": "xmas robber eats brunch for 12",
+    "lead": "local robber eats family of 12's christmas brunch while they sleep",
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "robber",
+      "eating",
+      "food",
+      "christmas"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "clive vandervelde",
+    "headline": "bacon to be most popular xmas gift",
+    "lead": "experts predict: 2018's top xmas gift to be bacon",
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "christmas",
+      "bacon",
+      "food",
+      "prediction"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "clive vandervelde",
+    "headline": "dogs love christmas, scientists show",
+    "lead": "local scientists' study reveals dogs love christmas more than their masters",
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "christmas",
+      "dogs",
+      "love",
+      "scientists"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "beatriz olivera",
+    "headline": "hanukkah better than xmas, scientists show",
+    "lead": ,
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "christmas",
+      "hanukkah",
+      "scientists"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "chelsea quatrosse",
+    "headline": "ten good dogs born on hanukkah",
+    "lead": "you won't believe number six!",
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "dogs",
+      "hanukkah",
+      "listicle"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "landon albatross-reese",
+    "headline": "twelve unbelievable bacon hacks you can do at home",
+    "lead": "take your bacon from floppy & dormant to ultra-performant!",
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "bacon",
+      "hack",
+      "listicle"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
-    "priority": 3,
+    "byline": "stephanie nguyen",
+    "headline": "hacking dogs: building the super-spaniel",
+    "lead": "how redog took the the dog-hacking world by storm",
+    "priority": 2,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "dogs",
+      "hack",
+      "tech"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "cory eldorado",
+    "headline": "new startup branded \"pinterest for dogs\"",
+    "lead": "silicon valley to capture dog craft inspiration market",
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "dogs",
+      "crafts",
+      "tech"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "eleanor worcestershire-montoya",
+    "headline": "dog makes papier mache bust of master",
+    "lead": "sammy, local laborador, blows judges away at local craft fair",
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "dogs",
+      "crafts",
+      "human interest"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "argyle jamieson singleterry",
+    "headline": "ten bacon-inspired crafts for dogs",
+    "lead": "edible ideas to occupy your pooch while you're away at work",
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "dogs",
+      "crafts",
+      "human interest",
+      "listicle"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
-    "priority": 3,
+    "byline": "stephanie nguyen",
+    "headline": "scientist clones self-replicating bacon",
+    "lead": "tammy hogarth, nano-biologist and bacon afficionado, solves world hunger",
+    "priority": 1,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "scientists",
+      "tech",
+      "bacon",
+      "food"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
-    "priority": 3,
+    "byline": "tammy hogarth",
+    "headline": "how i saved humanity",
+    "lead": "tammy hogarth on bacon, cloning, & saving the world",
+    "priority": 2,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "scientists",
+      "tech",
+      "bacon",
+      "food",
+      "human interest",
+      "guest columnist"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "jimmy hogarth",
+    "headline": "tammy hogarth: mean mom",
+    "lead": "six-year-old son of scientist writes famous mom won't let him watch pg-13 movies",
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "scientists",
+      "gossip",
+      "human interest",
+      "guest columnist",
+      "mom"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
-    "priority": 3,
+    "byline": "ricky elizabeth-gilbert",
+    "headline": "woman says neighbor annoying about parking",
+    "lead": "johnny mangosteen, local arborist, accused of \"parking rudely\" by graduate student next door",
+    "priority": 2,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "parking",
+      "gossip",
+      "woman",
+      "man"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "ricky elizabeth-gilbert",
+    "headline": "man accused of not being accuser's dad",
+    "lead": "charles richardson, 19, tells stepdad not to talk to him like that",
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "dads",
+      "gossip",
+      "stepdads"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "courtney rieff",
+    "headline": "scientists reveal stepdads a mixed bag",
+    "lead": "much like dads, local scienctists show that stepdads can be both nice & mean",
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "dads",
+      "scientists",
+      "stepdads"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "doris allasaurus",
+    "headline": "stepdad actually two dogs in trenchcoat",
+    "lead": "shocking canine deception revealed!",
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "stepdads",
+      "gossip",
+      "dogs",
+      "trenchcoat"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
-    "priority": 3,
+    "byline": "doris allasaurus",
+    "headline": "two dogs in trenchcoat new urban problem",
+    "lead": "startling amount of supposed humans actually cloaked dog pairs",
+    "priority": 2,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "human interest",
+      "dogs",
+      "trenchcoat"
     ]
   }, {
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "byline": "",
-    "headline": "",
-    "lead": "",
+    "byline": "mikey octolith-smith",
+    "headline": "dogs able to gossip",
+    "lead": "local scientist proves dogs can gossip",
     "priority": 3,
     "topics": [
-      "",
-      "",
-      "",
-      ""
+      "human interest",
+      "dogs",
+      "scientists",
+      "gossip"
     ]
   }]
 }
