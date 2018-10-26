@@ -1,14 +1,19 @@
 import { Injectable } from '@angular/core';
-import { Story } from './models/story.model';
+// import { Story } from './models/story.model';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class StoryService {
+  stories: FirebaseListObservable<any[]>;
 
-  constructor() { }
+  constructor(private database: AngularFireDatabase) {
+    this.stories = database.list('stories');
+  }
 
   getStories() {
-    // return stories;
+    return this.stories;
   }
 }
