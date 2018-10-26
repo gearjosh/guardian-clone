@@ -9,10 +9,16 @@ export class StoryService {
   stories: FirebaseListObservable<any[]>;
 
   constructor(private database: AngularFireDatabase) {
-    this.stories = database.list('stories');
+    this.stories = this.database.list('stories');
   }
 
   getStories() {
     return this.stories;
+  }
+
+  getTopStory() {
+    this.stories.forEach((story) => {
+
+    })
   }
 }
