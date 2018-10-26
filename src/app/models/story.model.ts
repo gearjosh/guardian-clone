@@ -36,36 +36,36 @@ export class Story {
     return outputArray;
   };
 
-  compareTopStories(a, b) {
-    const topicsA = a.topics.length;
-    const topicsB = b.topics.length;
-
-    let comparison: number = 0;
-
-    if (topicsA > topicsB) {
-      comparison = 1;
-    } else if (topicsB > topicsA) {
-      comparison = -1
-    }
-    return comparison;
-  };
-
-  findTopStory(stories: Story[]) {
-    let topStory: Story;
-    let topStoryPossibilities: Story[] = [];
-    // let topicScores: number[];
-
-    stories.forEach((story: Story) => {
-      if (story.priority === 1) {
-        topStoryPossibilities.push(story);
-      } else {
-        return;
-      }
-    });
-
-    topStoryPossibilities.sort(this.compareTopStories);
-
-    return topStory;
-  };
+  // compareTopStories(a, b) {
+  //   const topicsA = a.topics.length;
+  //   const topicsB = b.topics.length;
+  //
+  //   let comparison: number = 0;
+  //
+  //   if (topicsA > topicsB) {
+  //     comparison = 1;
+  //   } else if (topicsB > topicsA) {
+  //     comparison = -1
+  //   }
+  //   return comparison;
+  // };
+  //
+  // findTopStory(stories: Story[]) {
+  //   let topStory: Story;
+  //   let topStoryPossibilities: Story[] = [];
+  //   // let topicScores: number[];
+  //
+  //   stories.forEach((story: Story) => {
+  //     if (story.priority === 1) {
+  //       topStoryPossibilities.push(story);
+  //     } else {
+  //       return;
+  //     }
+  //   });
+  //
+  //   topStoryPossibilities.sort(this.compareTopStories);
+  //
+  //   return topStory;
+  // };
 
 }
