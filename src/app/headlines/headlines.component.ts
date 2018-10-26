@@ -8,13 +8,14 @@ import { STORIES } from '../mocks/stories';
   styleUrls: ['./headlines.component.scss']
 })
 export class HeadlinesComponent implements OnInit {
-
+  storiesArray = STORIES;
 
   constructor() {
 
   }
 
   ngOnInit() {
+    console.log(this.storiesArray);
   }
 
 }

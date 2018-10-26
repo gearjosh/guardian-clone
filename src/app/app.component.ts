@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { Story } from './models/story.model';
-import { STORIES } from './mocks/stories';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +7,5 @@ import { STORIES } from './mocks/stories';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'guardian-clone';
-  storiesArray = STORIES;
-
+  title = 'The Guardian-gular';
 }
