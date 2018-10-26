@@ -1,5 +1,5 @@
-<div class="big-box">
-  <div *ngFor="let story of stories | async" class="box">
+<!-- <div class="big-box">
+  <div *ngFor="let story of stories" class="box">
     <h2>{{story.headline.toUpperCase()}}</h2>
     <div>
       <h3>{{story.lead}}</h3>
@@ -9,17 +9,18 @@
     </div>
   </div>
 
-</div>
+</div> -->
 
 
-<!-- <div class="headline-grid-container">
+<div class="headline-grid-container">
   <div class="header-area">
   </div>
   <div class="top-story-area">
     <div  class="big-story">
-      <h1>{{topStory.headline | async}}</h1>
-      <h1>{{stories[0].headline | async}}</h1>
-
+      <h1>{{topStory.headline}}</h1>
+      <h3>{{topStory.lead}}</h3>
+      <h5>by {{topStory.byline}}</h5>
+      <p>{{topStory.body}}</p>
     </div>
     <div class="related-story">
 
@@ -27,7 +28,12 @@
   </div>
   <div class="second-story-area">
     <div class="big-story">
-
+      <div  class="big-story">
+        <h2>{{interestingStory.headline}}</h2>
+        <h4>{{interestingStory.lead}}</h4>
+        <h6>by {{interestingStory.byline}}</h6>
+        <p>{{interestingStory.body}}</p>
+      </div>
     </div>
     <div class="related-story">
 
@@ -35,12 +41,24 @@
   </div>
   <div class="middle-column-area">
     <div class="story">
-
+      <h4>{{p3Stories[0].headline}}</h4>
+      <h5>{{p3Stories[0].lead}}</h5>
+      <h6>by {{p3Stories[0].byline}}</h6>
+    </div>
+    <div class="story">
+      <h4>{{p3Stories[1].headline}}</h4>
+      <h5>{{p3Stories[1].lead}}</h5>
+      <h6>by {{p3Stories[1].byline}}</h6>
+    </div>
+    <div class="story">
+      <h4>{{p3Stories[2].headline}}</h4>
+      <h5>{{p3Stories[2].lead}}</h5>
+      <h6>by {{p3Stories[2].byline}}</h6>
     </div>
   </div>
   <div class="right-column-area">
     <div class="story">
-
+      
     </div>
   </div>
-</div> -->
+</div>

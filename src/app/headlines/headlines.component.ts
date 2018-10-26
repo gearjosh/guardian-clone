@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Story } from '../models/story.model';
+// import { Story } from '../models/story.model';
 import { StoryService } from '../story.service';
-import { FirebaseListObservable } from 'angularfire2/database';
+// import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-headlines',
@@ -10,49 +10,47 @@ import { FirebaseListObservable } from 'angularfire2/database';
   providers: [StoryService]
 })
 export class HeadlinesComponent implements OnInit {
-  stories: FirebaseListObservable<any[]>;
+  stories;
+  // stories: FirebaseListObservable<any[]>;
   // prioritizedStories;
-  // topStory;
-  // p1Stories;
-  // p2Stories;
-  // p3Stories;
+  topStory;
+  interestingStory;
+  p1Stories = [];
+  p2Stories = [];
+  p3Stories = [];
 
-  constructor(private storyService: StoryService) {
+  constructor(private storyService: StoryService) {}
 
-  }
+  
 
   ngOnInit() {
-    this.stories = this.storyService.getStories();
-    // this.prioritizedStories = this.prioritySorter(this.stories);
-    // this.p1Stories = this.prioritizedStories[0];
-    // this.topStory = this.p1Stories[0];
 
-    // this.storyService.getStories().subscribe(dataNow => {
-    //   this.stories = dataNow;
-    //   this.stories.forEach((story) => {
-    //     let aStory = new Story(story.headline, story.lead, story.body, story.byline, story.topics, story.priority)
-    //   })
-    // }
-    //
-    //   console.log(dataNow);
-    // });
+    this.storyService.getStories().subscribe(dataNow => {
+
+      this.stories = dataNow;
+
+      this.stories.forEach((story) => {
+        if (story.priority == 1) {
+          this.p1Stories.unshift(story);
+        } else if (story.priority == 2) {
+          this.p2Stories.unshift(story);
+        } else {
+          this.p3Stories.unshift(story);
+        }
+      });
+
+      this.topStory = this.p1Stories[0];
+      this.interestingStory = this.p2Stories[0];
+
+      console.log(`all stories: ${this.stories}`);
+      console.log(`p1 stories: ${this.p1Stories}`);
+      console.log(`p2 stories: ${this.p2Stories}`);
+      console.log(`p3 stories: ${this.p3Stories}`);
+      console.log(this.topStory);
+      console.log(this.interestingStory);
+    })
+
+
   }
-
-  prioritySorter(arrayOfStories) {
-    let p1Array;
-    let p2Array;
-    let p3Array;
-    let outputArray = [p1Array, p2Array, p3Array];
-    arrayOfStories.forEach((story) => {
-      if (story.priority === 1) {
-        p1Array.unshift(story);
-      } else if (story.priority === 2) {
-        p2Array.unshift(story);
-      } else {
-        p3Array.unshift(story);
-      }
-    });
-    return outputArray;
-  };
 
 }

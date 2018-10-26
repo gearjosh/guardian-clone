@@ -16,9 +16,9 @@ export class StoryService {
     return this.stories;
   }
 
-  // getTopStory() {
-  //   this.stories.forEach((story) => {
-  //
-  //   })
-  // }
+  getTopStory() {
+    this.stories.forEach((story) => {
+
+    })
+  }
 }
