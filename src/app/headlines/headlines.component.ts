@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-// import { Story } from '../models/story.model';
+import { Story } from '../models/story.model';
 import { StoryService } from '../story.service';
 import { FirebaseListObservable } from 'angularfire2/database';
 
@@ -27,6 +27,15 @@ export class HeadlinesComponent implements OnInit {
     // this.p1Stories = this.prioritizedStories[0];
     // this.topStory = this.p1Stories[0];
 
+    // this.storyService.getStories().subscribe(dataNow => {
+    //   this.stories = dataNow;
+    //   this.stories.forEach((story) => {
+    //     let aStory = new Story(story.headline, story.lead, story.body, story.byline, story.topics, story.priority)
+    //   })
+    // }
+    //
+    //   console.log(dataNow);
+    // });
   }
 
   prioritySorter(arrayOfStories) {
