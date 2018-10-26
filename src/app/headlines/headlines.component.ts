@@ -10,6 +10,11 @@ import { StoryService } from '../story.service';
 })
 export class HeadlinesComponent implements OnInit {
   stories;
+  prioritizedStories;
+  topStory;
+  p1Stories;
+  // p2Stories;
+  // p3Stories;
 
   constructor(private storyService: StoryService) {
 
@@ -17,8 +22,11 @@ export class HeadlinesComponent implements OnInit {
 
   ngOnInit() {
     this.stories = this.storyService.getStories();
+    // this.prioritizedStories = this.prioritySorter(this.stories);
+    // this.p1Stories = this.prioritizedStories[0];
+    // this.topStory = this.p1Stories[0];
   }
-  
+
   prioritySorter(arrayOfStories) {
     let p1Array;
     let p2Array;
